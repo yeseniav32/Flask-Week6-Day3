@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<div class="container">
+    <header class="row">
+        <!--Header Image-->
+        <div class="col-12 col-md-1" id= "header-image">
+            <img class="header-image" src="../static/images/car_header.jpg" alt="Hero Header Image" >
+        </div>
+        <!-- Header Text -->
+        <div class="col-12 col-md-11" id="header-text">
+            <h2>Let's find your dream car at the right price!</h2>
+            <h5>It only takes a few questions to help you make your car hunting easier.</h5>
+            <div>
+                <button class="btn btn-primary">Begin Questionnaire</button>
+                <button class="btn btn-primary">Testimonials</button>
+            </div>
+        </div>        
+    </header>
+    <!-- end of header section -->
+    <!-- middle section begins -->
+
+    <section class="row">
+        <div class="col-12" id="middle_text">
+            <h2>Let us show you our models!</h2>
+            <p>Feel the power of riding a vehcile that fits your needs.</p>
+        </div>
+    </section>
+
+    <!-- End of middle section -->
+    <!-- collection features begins -->
+    <section class="row" id="features-section">
+        <div class="col-12 col-md-6">
+            <img src="../../static/images/car_variety.webp" alt="car options image" id="car_options-image">
+            <h4>The Options are Endless</h4>
+            <p>
+                If you're a person that dislikes being limited, 
+                you have come to the right place!
+            </p>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <img src="../../static/images/undraw_Analytics_re_dkf8.png" alt="analytics image" id="analytics-image">
+            <h4>The Data Does Not Lie</h4>
+            <p>
+                Check out our data and see what customers have said about us.
+            </p>
+        </div>
+    </section>
+    <!--End of collection features -->
+
+    <!-- start of footer -->
+    <footer class="row" id="footer">
+        <div class="col-2 col-md-4">
+            <img src="../../static/images/undraw_Social_ideas_re_j5v4.png" alt="Socal Media Options image" id="social_media-image">
+        </div>
+
+        <div class="col-2 col-md-4">
+            <div class="footer-text-flex">
+                <h4>Learn More</h4>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Locations</p>
+                <p>Mission</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-2 col-md-4">
+            <div class="footer-text-flex">
+                <h4>Platform</h4>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>Twitter</p>
+                <p>LinkedIn</p>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+</div>
+
+{% endblock content%}
